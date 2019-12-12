@@ -1,0 +1,23 @@
+public class LabExer1A{
+	public static void main(String[] args) {
+		
+		int faveNumber= 20;
+		System.out.println(faveNumber+" is my favorite number"); //My favorite number is 20
+		String faveCartChar= "MELIODAS";
+		System.out.println("I love "+faveCartChar); /*My favorite cartoon character or anime character is Meliodas*/
+		char mi= 'K';
+		System.out.println("My middle initial is " + mi); //My middle initial is K
+	char[] nicknamearray= { 'K', 'E', 'R', 'T', 'O' ,'N', 'G'}; 
+	for(int num=6; num<nicknamearray.length; num++){
+		
+      System.out.print("You can call me ");
+      System.out.print( nicknamearray);
+		}
+                          
+
+	 
+	
+	
+
+	}
+}

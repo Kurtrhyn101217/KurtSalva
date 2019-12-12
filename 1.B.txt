@@ -1,0 +1,30 @@
+import java.util.*;
+public class LabExxer1B{
+	public static void main(String[] kurt) {
+		Scanner a = new Scanner (System.in);
+		System.out.println("Enter your integer number:  ");
+		int num= a.nextInt();
+		
+		
+		System.out.println(num +"  plus 10 is" +   showNumberPlus10 ( num));
+		System.out.println(num +"  plus 100 is" +   showNumberPlus100( num));
+		System.out.println(num +"  plus 1000 is" +   showNumberPlus1000 ( num));
+		
+	}
+		
+public static int showNumberPlus10( int b){
+return b+  10;
+
+
+
+}
+
+
+public static int showNumberPlus100(int b){
+return b+ 100;
+}
+
+public static int showNumberPlus1000(int b){
+return b + 1000;
+}
+}
